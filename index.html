@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Barlow">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="fcf-assets/css/fcf.default.css" rel="stylesheet">
+    <link href="fcf-assets/css/fcf.default-custom.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/styles.css">
+    <title>Gemstone Janitorial</title>
+	<link rel="icon" href="img/favicon.png" type="image/png">
+</head>
+<body>
+	<nav>
+		<div class="logo">
+			<a href="#home"><img src="./img/logo2.png" alt="logo"></a>
+		</div>
+			<ul id="myLinks">
+				<li class="home active"><a href="#home">Home</a></li>
+				<li class="about"><a href="#about">About</a></li>
+				<li class="testimonials"><a href="#testimonials">Testimonials</a></li>
+				<li class="contact"><a href="#contact">Contact</a></li>
+			</ul>
+		<a href="javascript:void(0);" class="icon" onclick="showNav()">
+			<i class="fa fa-bars"></i>
+		  </a>
+	</nav>
+	<div id="myModal" class="modal">
+		<!-- Modal content -->
+		<div class="modal-content">
+		  <span class="close">&times;</span>
+		  <img src="./img/logo2.png" class="modal-logo" alt="logo">
+		  	<div class="fcf-body">
+				<div class="fcf-form-wrap">
+					<div id="fcf-form">
+						<form class="fcf-form-class" method="post" action="fcf-assets/fcf.process.php">
+		
+							<div class="fcf-field">
+								<label for="Name" class="fcf-label">Name</label>
+								<div class="fcf-control">
+									<input type="text" name="Name" id="Name" class="fcf-input is-full-width" maxlength="60"
+										data-validate-field="Name" placeholder="Your name">
+								</div>
+							</div>
+							<div class="fcf-field">
+								<label for="Email" class="fcf-label">Email</label>
+								<div class="fcf-control">
+									<input type="email" name="Email" id="Email" class="fcf-input is-full-width" maxlength="100"
+										data-validate-field="Email" placeholder="email@example.com">
+								</div>
+							</div>
+							<div class="fcf-field">
+								<label for="Phone" class="fcf-label">Phone (optional)</label>
+								<div class="fcf-control">
+									<input type="text" name="Phone" id="Phone" class="fcf-input is-full-width" maxlength="30"
+										data-validate-field="Phone" placeholder="123-456-7890">
+								</div>
+							</div>
+							<div class="fcf-field">
+								<label for="Message" class="fcf-label">Message</label>
+								<div class="fcf-control">
+									<textarea name="Message" id="Message" class="fcf-textarea" maxlength="3000" rows="5"
+										data-validate-field="Message" placeholder="Tell us how we can serve you!"></textarea>
+								</div>
+							</div>
+							<div id="fcf-status" class="fcf-status"></div>
+							<div class="fcf-field">
+								<div class="fcf-buttons">
+									<button id="fcf-button" type="submit" class="fcf-button is-link is-medium is-fullwidth" disabled>Send
+										Message</button>
+								</div>
+							</div>
+							<!-- You MUST retain the attribution below -->
+							<div class="fcf-attribution">Contact Form by <a href="https://www.freecontactform.com/"
+									class="fcf-attribution-link" target="_blank">FreeContactForm</a>
+							</div>
+						</form>
+					</div>
+					<div id="fcf-thank-you" style="display:none">
+						<!-- Thank you message goes below -->
+						<p>Thanks for contacting us, we will get back in touch with you soon.</p>
+						<!-- Thank you message goes above -->
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<section class="parallax" id="home">
+		<div class="banner">
+			<div class="grid-container">
+				<h1>Quality Service, Reliably Delivered</h1>
+				<h2>Gemstone Janitorial provides professional cleaning service to Edmonton the surrounding area. We specialize in condominium and apartment complexes but offer a wide range of cleaning services to suit your needs. Contact us today for your free quote!</h2>
+				<button id="myBtn" class="contact_button">Connect Today for<br>a Free Quote!</button>
+			</div>
+		</div>
+	</section>
+	<section id="about">
+		<div class="grid-container2">
+			<h1>About Gemstone Janitorial</h1>
+			<div class="sec1img">
+				<img src="img/Portrait.jpg" alt="Portrait">
+				<figcaption>Eric Thiessen: Owner</figcaption>
+			</div>
+			<p class="p1">Gemstone Janitorial was started because I was unsatisfied with the level of service from other cleaning companies. At the time, I had been serving as a director on my condo board for two years and it was a constant struggle trying to get consistent, quality cleaning service for the building. Eventually, after a great deal of toil trying to work with different cleaners, I'd had enough and decided it was time to start my own cleaning business.</p>
+			<p class="p2">Serving on a condo board and working with a property manager for those two years gave me the understanding to know exactly what building residents and property managers look for in a cleaning company. Quality service and reliable delivery of that service. My goal with Gemstone Janitorial is to provide exactly that!</p>
+		</div>
+	</section>
+	<section class="parallax2" id="testimonials">
+		<div class="testimonial1">
+			<img src="img/quote.png" alt="quote">
+			<p>Eric has been cleaning my condo complex for the past year and he is fantastic! The common areas are always sparkling, and guests that I've had over have mentioned the difference since he's been doing the job. He is efficient and friendly, and manages a building with many residents and many challenges! I would recommend him to anyone looking for a very easy person to work with who is looking for great results! Extremely satisfied with his professionalism and overall work!</p>
+			<h3>Megan, Resident</h3>
+		</div>
+		<div class="testimonial2">
+			<img src="img/quote.png" alt="quote">
+			<p>Eric is a reliable, thorough and responsive service provider.  He manages his business professionally and with integrity. Our corporation is very fortunate to enlist his service.</p>
+			<h3>Catherine, Condo Board Director</h3>
+		</div>
+	</section>
+	<section id="contact">
+		<div class="grid-container3">
+			<h1>Contact Us</h1>
+			<div class="contact-logo">
+				<img src="./img/logo2.png" alt="logo">
+			</div>
+			<div class="phone">
+				<h3>Phone</h3>
+				<p>123-456-7890</p>
+			</div>
+			<div class="email">
+				<h3>Email</h3>
+				<a href="mailto:example@gemstonejanitorial.ca">example@gemstonejanitorial.ca</a>
+			</div>
+			<div class="fcf-body">
+				<div class="fcf-form-wrap">
+					<div id="fcf-form">
+						<form class="fcf-form-class" method="post" action="fcf-assets/fcf.process.php">
+		
+							<div class="fcf-field">
+								<label for="Name" class="fcf-label">Name</label>
+								<div class="fcf-control">
+									<input type="text" name="Name" id="Name" class="fcf-input is-full-width" maxlength="60"
+										data-validate-field="Name" placeholder="Your name">
+								</div>
+							</div>
+							<div class="fcf-field">
+								<label for="Email" class="fcf-label">Email</label>
+								<div class="fcf-control">
+									<input type="email" name="Email" id="Email" class="fcf-input is-full-width" maxlength="100"
+										data-validate-field="Email" placeholder="email@example.com">
+								</div>
+							</div>
+							<div class="fcf-field">
+								<label for="Phone" class="fcf-label">Phone (optional)</label>
+								<div class="fcf-control">
+									<input type="text" name="Phone" id="Phone" class="fcf-input is-full-width" maxlength="30"
+										data-validate-field="Phone" placeholder="123-456-7890">
+								</div>
+							</div>
+							<div class="fcf-field">
+								<label for="Message" class="fcf-label">Message</label>
+								<div class="fcf-control">
+									<textarea name="Message" id="Message" class="fcf-textarea" maxlength="3000" rows="5"
+										data-validate-field="Message" placeholder="Tell us how we can serve you!"></textarea>
+								</div>
+							</div>
+							<div id="fcf-status" class="fcf-status"></div>
+							<div class="fcf-field">
+								<div class="fcf-buttons">
+									<button id="fcf-button" type="submit" class="fcf-button is-link is-medium is-fullwidth" disabled>Send
+										Message</button>
+								</div>
+							</div>
+							<!-- You MUST retain the attribution below -->
+							<div class="fcf-attribution">Contact Form by <a href="https://www.freecontactform.com/"
+									class="fcf-attribution-link" target="_blank">FreeContactForm</a>
+							</div>
+						</form>
+					</div>
+					<div id="fcf-thank-you" style="display:none">
+						<p>Thanks for contacting us, we will get back in touch with you soon.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer class="footer">
+        <div class="footer-contact">
+			<p>Gemstone Janitorial</p>
+			<p>Phone: 123-456-7890</p>
+			<p>Email: example@gemstonejanitorial.ca</p>
+        </div>
+    </footer>
+	<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+	<script src="js/scripts.js"></script>
+	<script src="fcf-assets/js/lang/fcf.en.js"></script>
+    <script src="fcf-assets/js/fcf.just-validate.min.js"></script>
+    <script src="fcf-assets/js/fcf.form.js"></script>
+</body>
+</html>
